@@ -47,6 +47,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    //self.view.opaque = NO;
+//    self.backGroundView.image =[UIImage imageNamed:@"GuessCat"];
+//    self.backGroundView.alpha = 0.55;
+//    self.backGroundView.backgroundColor = [UIColor colorWithRed:1.0 green:0.9 blue:0.9 alpha:0.55];
+//
+    
     self.count= 0;
     [self.playAgain setHidden:YES];
     
@@ -68,14 +74,8 @@
    UIButton *btn = (UIButton *)sender;
     [self checking:btn.tag];
     
-    [self.button1 setHidden:YES];
-  //if (btn.tag == [self.theNumber.text integerValue]) {
-      
-      //[self.imageView setHidden:NO];
-      
-      
-   // }
-    
+    //[self.button1 setHidden:YES];
+    //self.button1.enabled = NO;
 
 }
 
@@ -83,112 +83,53 @@
     
     UIButton *btn = (UIButton *)sender;
     [self checking:btn.tag];
+     // self.button2.enabled = NO;   // [self.button2 setHidden:YES];
     
-    [self.button2 setHidden:YES];
-    
-    
-   /* if (btn.tag == [self.theNumber.text integerValue]) {
-        
-        [self.imageView setHidden:NO];
-        
-        [self.playAgain setHidden:NO];
-    }*/
-
 }
 
 - (IBAction)inputButton3:(id)sender {
     
     UIButton *btn = (UIButton *)sender;
     [self checking:btn.tag];
-
-    [self.button3 setHidden:YES];
-    
-  /*  if (btn.tag == [self.theNumber.text integerValue]) {
-        
-        [self.imageView setHidden:NO];
-        
-        [self.playAgain setHidden:NO];
-    }*/
-
-    
-    
+  //self.button3.enabled = NO;
+    //[self.button3 setHidden:YES];
 }
 
 - (IBAction)inputButton4:(id)sender {
     
     UIButton *btn = (UIButton *)sender;
     [self checking:btn.tag];
-
-    [self.button4 setHidden:YES];
-   /* if (btn.tag == [self.theNumber.text integerValue]) {
-        
-        [self.imageView setHidden:NO];
-        
-        [self.playAgain setHidden:NO];
-    }*/
-
+  //self.button4.enabled = NO;
+   // [self.button4 setHidden:YES];
 }
 
 - (IBAction)inputButton6:(id)sender {
     
     UIButton *btn = (UIButton *)sender;
     [self checking:btn.tag];
-
-    [self.button6 setHidden:YES];
-    
-    
-   /* if (btn.tag == [self.theNumber.text integerValue]) {
-        
-        [self.imageView setHidden:NO];
-        
-        [self.playAgain setHidden:NO];
-    }*/
-    
+  //self.button6.enabled = NO;
+   // [self.button6 setHidden:YES];
 }
 - (IBAction)inputButton7:(id)sender {
     
     UIButton *btn = (UIButton *)sender;
     [self checking:btn.tag];
-
-    [self.button7 setHidden:YES];
-   /* if (btn.tag == [self.theNumber.text integerValue]) {
-        
-        [self.imageView setHidden:NO];
-        
-        [self.playAgain setHidden:NO];
-    }*/
-    
+  //self.button7.enabled = NO;
+    //[self.button7 setHidden:YES];
 }
 
 - (IBAction)inputButton8:(id)sender {
     
     UIButton *btn = (UIButton *)sender;
     [self checking:btn.tag];
-
-    [self.button8 setHidden:YES];
-    /*if (btn.tag == [self.theNumber.text integerValue]) {
-        
-        [self.imageView setHidden:NO];
-        
-        [self.playAgain setHidden:NO];
-    }*/
-
+  //self.button8.enabled = NO;
+    //[self.button8 setHidden:YES];
 }
 - (IBAction)inputButton9:(id)sender {
     UIButton *btn = (UIButton *)sender;
      [self checking:btn.tag];
-    
-    [self.button9 setHidden:YES];
-    
-   /* if (btn.tag == [self.theNumber.text integerValue]) {
-        
-        [self.imageView setHidden:NO];
-        
-        [self.playAgain setHidden:NO];
-    }*/
-
-    
-    
+      //self.button9.enabled = NO;
+    //[self.button9 setHidden:YES];
 }
 
 
@@ -210,7 +151,7 @@
     [self.winWinHappyCat setHidden:YES];
     
     [self.playAgain setHidden:YES];
-    self.theNumber.text = @"Guess Who?";
+    self.theNumber.text = @"Guess the Number?";
     self.count = 0;
 
   int randomNumber = arc4random_uniform(9) + 1;
@@ -249,6 +190,7 @@
         
         [self.playAgain setHidden:NO];
         [self.theNumber setHidden:NO];
+        
         self.theNumber.text = @"right guess!";
         
     }

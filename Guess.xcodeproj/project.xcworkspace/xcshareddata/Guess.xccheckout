@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3872F290-75D2-4D06-A705-D5B4A1E2AD16</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Guess</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>675F607A2E42C551809956A23C3CBC52F47E9620</key>
+		<string>https://github.com/rsreerekha/Guess.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Guess.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>675F607A2E42C551809956A23C3CBC52F47E9620</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/rsreerekha/Guess.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>675F607A2E42C551809956A23C3CBC52F47E9620</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>675F607A2E42C551809956A23C3CBC52F47E9620</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Guess</string>
+		</dict>
+	</array>
+</dict>
+</plist>
