@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
     </dependencies>
     <scenes>
@@ -9,18 +10,18 @@
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
-                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                        <viewControllerLayoutGuide type="top" id="PbL-Fh-E6W"/>
+                        <viewControllerLayoutGuide type="bottom" id="dfC-ye-vBa"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" alpha="0.74999999999999978" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="GuessCat" translatesAutoresizingMaskIntoConstraints="NO" id="jWX-5H-9cO">
-                                <rect key="frame" x="-66" y="0.0" width="650" height="667"/>
+                            <imageView opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" alpha="0.84999999999999987" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="bkg" translatesAutoresizingMaskIntoConstraints="NO" id="jWX-5H-9cO">
+                                <rect key="frame" x="-7" y="0.0" width="607" height="600"/>
                             </imageView>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cgh-hr-rHv">
-                                <rect key="frame" x="50" y="136" width="53" height="53"/>
+                                <rect key="frame" x="50" y="136" width="60" height="63"/>
                                 <color key="backgroundColor" red="0.0" green="0.68627452850000004" blue="0.94117653369999998" alpha="1" colorSpace="deviceRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="1">
@@ -37,7 +38,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TfX-z9-vPi">
-                                <rect key="frame" x="164" y="136" width="53" height="53"/>
+                                <rect key="frame" x="164" y="136" width="60" height="63"/>
                                 <color key="backgroundColor" red="0.0" green="0.68627452850341797" blue="0.94117653369903564" alpha="1" colorSpace="deviceRGB"/>
                                 <state key="normal" title="2">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -53,7 +54,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Gz-B1-WIA">
-                                <rect key="frame" x="289" y="136" width="53" height="53"/>
+                                <rect key="frame" x="289" y="136" width="60" height="63"/>
                                 <color key="backgroundColor" red="0.0" green="0.68627452850000004" blue="0.94117653369999998" alpha="1" colorSpace="deviceRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="3">
@@ -70,7 +71,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="But-m0-X9R">
-                                <rect key="frame" x="50" y="227" width="53" height="53"/>
+                                <rect key="frame" x="50" y="227" width="60" height="63"/>
                                 <color key="backgroundColor" red="0.0" green="0.68627452850000004" blue="0.94117653369999998" alpha="1" colorSpace="deviceRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="4">
@@ -87,7 +88,7 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="xrc-I8-1ev" userLabel="Image1">
-                                <rect key="frame" x="164" y="227" width="53" height="53"/>
+                                <rect key="frame" x="164" y="227" width="60" height="63"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                         <integer key="value" value="5"/>
@@ -95,7 +96,7 @@
                                 </userDefinedRuntimeAttributes>
                             </imageView>
                             <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lln-gF-56h">
-                                <rect key="frame" x="289" y="227" width="53" height="53"/>
+                                <rect key="frame" x="289" y="227" width="60" height="63"/>
                                 <color key="backgroundColor" red="0.0" green="0.68627452850000004" blue="0.94117653369999998" alpha="1" colorSpace="deviceRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="6">
@@ -112,7 +113,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XOT-vB-SC7">
-                                <rect key="frame" x="50" y="318" width="53" height="53"/>
+                                <rect key="frame" x="50" y="318" width="60" height="63"/>
                                 <color key="backgroundColor" red="0.0" green="0.68627452850000004" blue="0.94117653369999998" alpha="1" colorSpace="deviceRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="7">
@@ -129,7 +130,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="8" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="APa-aE-ixN">
-                                <rect key="frame" x="164" y="318" width="53" height="53"/>
+                                <rect key="frame" x="164" y="318" width="60" height="63"/>
                                 <color key="backgroundColor" red="0.0" green="0.68627452850000004" blue="0.94117653369999998" alpha="1" colorSpace="deviceRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="8">
@@ -146,7 +147,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="9" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M3I-wS-YOR">
-                                <rect key="frame" x="289" y="318" width="53" height="53"/>
+                                <rect key="frame" x="289" y="318" width="60" height="63"/>
                                 <color key="backgroundColor" red="0.0" green="0.68627452850000004" blue="0.94117653369999998" alpha="1" colorSpace="deviceRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="9">
@@ -200,6 +201,12 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="dfC-ye-vBa" firstAttribute="top" secondItem="jWX-5H-9cO" secondAttribute="bottom" id="8DD-E3-3ck"/>
+                            <constraint firstAttribute="trailing" secondItem="jWX-5H-9cO" secondAttribute="trailing" id="Y7R-P5-0zY"/>
+                            <constraint firstItem="jWX-5H-9cO" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="b1N-1Q-2rB"/>
+                            <constraint firstItem="jWX-5H-9cO" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="tz7-fx-4Cq"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="backGroundView" destination="jWX-5H-9cO" id="9Ra-M9-18g"/>
@@ -227,7 +234,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="GuessCat" width="109" height="116"/>
         <image name="Image" width="450" height="380"/>
+        <image name="bkg" width="69" height="43"/>
     </resources>
 </document>
